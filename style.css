@@ -100,7 +100,6 @@
     text-shadow: -4px 4px 0px rgba(0,0,0,0.2);
     text-transform: capitalize;
 }
-
 .order-heading2{
     font-size: 82px;
     color: #000;
@@ -133,3 +132,98 @@
     color: #fff;
     background-color: #282828;
 }
+/* category section started */
+.category{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+.right-leaf{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.category-heading__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.category-heading{
+    font-size: 62px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'Pattaya',sans-serif;
+    text-transform: capitalize;
+}
+.categories{
+    width: 80%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.category-card{
+    width: 240px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+.category-card:hover .category-image__container{
+    outline-color: #ffe401;
+}
+.category-card:hover .category-card__name{
+    color: #fcb900;
+}
+.category-image__container{
+    width: 190px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 15px solid #fafafa;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.category-image__container img{
+    width: 120px;
+    height: 120px;
+}
+.category-card__name{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.category-btn{
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 500;
+    color: #282828;
+    background-color: #ffe401;
+    transition: all 0.2s;
+    font-family: 'Poppins',sans-serif;
+    padding: 18px 40px;
+    border-radius: 100px;
+}
+.category-btn:hover{
+    color: #fff;
+    background-color: #282828;
+}
+/* category section finished */
