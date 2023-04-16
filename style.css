@@ -9,9 +9,6 @@
     background-image: url("images/slider1.jpeg");
     background-size: cover;
     animation: slider 15s alternate infinite ease-in-out;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
 }
 @keyframes slider {
     0%{
@@ -27,7 +24,6 @@
 .header{
     width: 83%;
     height: 120px;
-    /* background-color: aliceblue; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -52,7 +48,7 @@
     color: #282828;
     padding: 40px 10px;
     transition: all 0.2s;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .active{
     color: #fff;
@@ -97,41 +93,43 @@
     justify-content: flex-start;
     margin: 150px auto;
 }
-.heading1{
+.order-heading1{
     font-size: 32px;
     color: #fff;
-    font-family: 'Pattaya', sans-serif;
-
+    font-family: 'Pattaya',sans-serif;
+    text-shadow: -4px 4px 0px rgba(0,0,0,0.2);
+    text-transform: capitalize;
 }
-.heading2{
+
+.order-heading2{
     font-size: 82px;
     color: #000;
-    font-family: 'Pattaya', sans-serif;
-
+    font-family: 'Pattaya',sans-serif;
+    text-shadow: -4px 4px 0px rgba(0,0,0,0.2);
 }
-.description{
+.order-description{
     width: 35%;
     font-size: 17px;
     font-weight: 600;
     color: #282828;
     padding: 40px 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .order-btn{
     width: 200px;
     text-decoration: none;
-    text-transform: capitalize;
     text-align: center;
+    text-transform: capitalize;
     font-size: 17px;
+    font-weight: 500;
     color: #282828;
-    font-family: 'Poppins', sans-serif;
     background-color: #fff;
     transition: all 0.2s;
+    font-family: 'Poppins',sans-serif;
     padding: 18px 40px;
     border-radius: 100px;
-    font-weight: 500;
 }
 .order-btn:hover{
-    background-color: #282828;
     color: #fff;
+    background-color: #282828;
 }
