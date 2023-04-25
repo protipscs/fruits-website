@@ -227,3 +227,69 @@
     background-color: #282828;
 }
 /* category section finished */
+/* grow section started */
+.grow{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.grow-left{
+    width: 45%;
+    height: 100%;
+}
+.grow-left img{
+    width: 80%;
+    height: 80%;
+}
+.grow-right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.grow-heading1{
+    font-size: 32px;
+    color: #000;
+    font-family: 'Pattaya',sans-serif;
+    text-transform: capitalize;
+}
+.grow-heading2{
+    font-size: 82px;
+    color: #000;
+    font-family: 'Pattaya',sans-serif;
+    text-transform: capitalize;
+}
+.grow-description{
+    width: 90%;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+    color:#2a2a2a;
+    padding: 40px 10px;
+    font-family: 'Poppins',sans-serif;
+}
+.grow-figure{
+    width: 90%;
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.figure-container{
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* grow section finished */
