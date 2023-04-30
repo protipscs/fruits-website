@@ -507,3 +507,125 @@
     z-index: 1;
 }
 /* farm section finished */
+/* bestseller section started */
+.bestseller{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bestseller-left{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bestseller-heading1{
+    font-size: 32px;
+    color: #000;
+    font-family: 'Pattaya',sans-serif;
+    text-transform: capitalize;
+}
+.bestseller-heading2{
+    font-size: 62px;
+    color: #000;
+    font-family: 'Pattaya',sans-serif;
+    text-transform: capitalize;
+}
+.bestseller-description{
+    width: 70%;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+    color:#2a2a2a;
+    padding: 40px 10px;
+    font-family: 'Poppins',sans-serif;
+}
+.bestseller-btn{
+    width: 230px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 500;
+    color: #282828;
+    background-color: #ffe401;
+    transition: all 0.2s;
+    font-family: 'Poppins',sans-serif;
+    padding: 18px 40px;
+    border-radius: 100px;
+}
+.bestseller-btn:hover{
+    background-color: #282828;
+    color: #fff;
+}
+.bestseller-right{
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-shadow: 1px 1px 10px 5px  rgba(100, 100, 100, 0.2);
+}
+.bestseller-card{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 40px;
+}
+.bestseller-card__content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+.bestseller-name{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+    color: #282828;
+    transition: all 0.2s;
+    font-family: 'Poppins',sans-serif;
+}
+.bestseller-cost{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+    color: #282828;
+    transition: all 0.2s;
+    font-family: 'Poppins',sans-serif;
+}
+.bestseller-card__btn{
+    width: 130px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+    background-color: #6eb202;
+    padding: 15px 0;
+    margin-top: 15px;
+    border-radius: 100px;
+    transition: all 0.2s;
+}
+.bestseller-card__btn:hover{
+    background-color: #282828;
+    color: #fff;
+}
+/* bestseller section finished */
