@@ -745,7 +745,7 @@
 .fresh{
     width: 100%;
     min-height: 180vh;
-    background-color: #fafafa;
+    background-color: #f8f8f8;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -793,3 +793,103 @@
     background-color: #282828;
 }
 /* fresh section finished */
+/* chose us section started */
+.choseUs{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.chose-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.chose-heading1{
+    font-size: 32px;
+    color: #000;
+    font-family: 'Pattaya',sans-serif;
+    text-transform: capitalize;
+}
+.chose-heading2{
+    font-size: 62px;
+    color: #000;
+    font-family: 'Pattaya',sans-serif;
+    text-transform: capitalize;
+}
+.chose-description{
+    width: 80%;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+    color:#2a2a2a;
+    padding: 40px 10px;
+    font-family: 'Poppins',sans-serif;
+}
+.chose-left img{
+    width: 75%;
+    height: 75%;
+}
+.chose-right{
+    width: 50%;
+    height: 100%;
+}
+.chose-right__container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    position: relative;
+}
+.chose-right__container::before{
+    content: '';
+    width: 100%;
+    height: 320px;
+    display: block;
+    position: absolute;
+    top: 20%;
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    z-index: 1;
+}
+.chose-card{
+    width: 180px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 2;
+}
+.chose-image__container{
+    width: 180px;
+    height: 180px;
+    background-color: #6eb202;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chose-card__name{
+    width: 120px;
+    color: #282828;
+    font-family: poppins,Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* chose us section finished */
