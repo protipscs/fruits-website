@@ -1116,3 +1116,50 @@
     left: -5%;
 }
 /* feedback section finished */
+/* counter section started */
+.counter{
+    width: 100%;
+    min-height: calc(100vh / 3);
+    background-color: #fcb900;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.counter-content{
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px  rgba(100, 100, 100, 0.2);
+
+}
+.counter-card{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.counter-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.counter-count{
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+}
+.counter-name{
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+}
+/* counter section finished */
